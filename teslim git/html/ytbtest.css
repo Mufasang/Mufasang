@@ -22,9 +22,26 @@ head {
 }
 
 .container {
-  width: 1000px;
+  width: max-content;
   margin: 0 auto;
   margin-top: 70px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.left2{
+            
+  width: 65%;
+  height: 200px;
+  padding: 5px;
+  margin: 2px;
+}
+.right2{
+
+  width: 35%;
+  height: 200px;
+  padding: 10px;
+  margin: 2px;
 }
 
 .left {
@@ -35,12 +52,11 @@ head {
   float: right;
 }
 .space {
-  margin-right: 600px;
+  margin-right: 150px;
 }
 
 .font-space {
   width: 40px;
-  margin-top: ;
   padding: 5px;
 }
 
